@@ -44,7 +44,7 @@
 .navbrlist li{
     display: inline;
     margin-left: 74px;
-    margin-top: -90px;
+    margin-top: -30px;
     color: white;
     cursor: pointer;
     padding: 10px;
@@ -52,7 +52,7 @@
     text-decoration: none;
     transition: ease-in-out .5s;
     padding: 4px;
-    font-family: instrumrnt sans;
+    font-family: instrument sans;
     
     
     
