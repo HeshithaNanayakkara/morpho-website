@@ -58,6 +58,7 @@
     
 }
 
+
 .navbrlist li:hover{
     transition: ease-in-out .5s;
     
@@ -308,7 +309,7 @@
 .resources-list ul{
     
     margin-top: 6%;
-    margin-left: 18%;
+    margin-left: 16%;
     text-decoration: none;
    
     
@@ -447,6 +448,11 @@
 }
 
 
+
+
+
+
+
 @media only screen and (max-width:375px) {
 
     body{
@@ -455,11 +461,11 @@
 
 
     .navbar{
-        background-color: rgba(0, 0, 0, 0.582);
-        padding: 5px;
-        width: 100%;
+        background-color: rgba(255, 253, 253, 0.582);
+        padding: 2px;
+        width: 80%;
         margin-top: -9px;
-        margin-left: -8px;
+        margin-left: -30px;
         padding-right: 12px;
         position:fixed;
         display: inline;
@@ -467,67 +473,63 @@
     }
     
     .navbar-ul{
-        margin-left: 26px;
+        margin-left: -2%;
         margin-top: -25px;
         justify-content: end;
         font-size: 19px;
     }
     
-    .logoimg img{
-        border-radius: 40px;
-        margin-top: -10px;
-        margin-left: 4%;
-        margin-top: 0;
-    }
+   
     .navbrlist li{
-        font-size: 9px;
+        font-size: 6px;
         display: inline;
-        margin-left: 4px;
-        margin-top: 10%;
+        margin-left: -6%;
+        margin-top: 2%;
         color: white;
         cursor: pointer;
-        padding: 4px;
+        
         border-radius: 10px;
         text-decoration: none;
         transition: ease-in-out .6s;
-        background-color: rgba(35, 233, 141, 0.295);
-        border: 2px  rgba(0, 255, 170, 0.726) outset;
+        
         
     }
     
     .navbrlist li:hover{
-        background-color: rgba(24, 209, 138, 0.712);
+        
         transition: ease-in-out .6s;
-        border: 2px  rgba(14, 223, 101, 0.842) inset;
+        
         
     }
     .navbrlist li a{
         text-decoration:none;
         color: white;
+        font-size: 10px;
     }
 
 
 
     .introtop{
-        margin-left: 60px;
+        margin-left: -20%;
+        
         
         
     }
 
     #slider{
-        width: 300px;
+        width: 200px;
         height: 150px;
     }
     
     .introtop button{
         background-color: rgba(65, 170, 33, 0.26);
-        padding-top: 42%;
+        padding-top: 25px;
         text-align: center;
         color: aliceblue;
         border: none;
-        padding-left: 50px;
+        padding-left: -13px;
         transition: ease-in-out .5s;
-        border-radius: 7px;
+        border-radius: 1px;
        
     }
     
@@ -536,9 +538,397 @@
         transition: ease-in-out .5s;
     }
 
-
+    .topparagraph{
+        color: white;
+        width: 80%;
+        text-align: center;
+        font-family: instrument sans;
+        margin-left: 9%;
+        line-height: 1.6;
+        margin-bottom: 10px;
+        font-size: 10px;
     
+    }   
+    
+    #learn-more-btn{
+        margin-left: 34%;
+        margin-bottom: 40px;
+        margin-top: 8px;
+        padding: 14px;
+        border-radius: 20px;
+        background-color: rgba(0, 128, 0, 0);
+        border: 2px solid white;
+        color: aliceblue;
+        transition: ease-in-out .5s;
+        font-weight: bold;
+        font-size: 8px;
+        width: 30%;
+    }
+    
+    #learn-more-btn:hover{
+        transition: ease-in-out .5s;
+        background-color: rgb(255, 255, 255);
+        color: black;
+        
+    }
+    
+    .card{
+        background-color: rgb(168, 22, 22);
+        margin-top: 30px;
+        margin-left: 40%;
+        width: 30%;
+        padding-top: -30%;
+        transition: ease-in-out .8s;
+    }
+    
+    .card:hover{
+        background-color: black;
+        
+    }
+    .card img{
+        margin-left: 40%;
+        padding-top: -30% ;
+    }
+    
+    .introtop img::before{
+        background: rgb(0, 0, 0);
+       
+    }
+    
+    .intro h2{
+        text-align: center;
+        font-family: Instrument Sans; 
+        color: white;
+        background: linear-gradient(90deg, rgb(77, 80, 79) 0%, rgba(130, 139, 138, 0.856)0%, rgb(49, 53, 51) 100%);
+        padding-top: 10px;
+        padding-bottom: 10px;
+        width: 25%;
+        margin-left: 38%;
+        border-radius: 20px;
+        margin-top: 10%;
+    
+        
+    }
+    .imgpalet{
+        margin-left: 1px;
+        margin-top: -1%;
+        
+    }
+    .imgpalet li{
+        display: inline;
+        background: linear-gradient(90deg, rgb(15, 15, 1) 0%, rgba(252, 252, 252, 0.801) 50%, rgba(0, 0, 0, 0.596) 100%);
+        padding-top: 60px;
+        border-radius: 10px;
+        transition: ease-in-out .6s;
+        
+       
+    }
+    .imgpalet li:hover{
+        padding-top: 230px;
+        transition: ease-in-out .6s;
+        
+        
+    }
+    
+    #explainvideo{
+        margin-left: 10%;
+        margin-top: 12px;
+        margin-bottom: 12px;
+        width: 80%;
+        height: 20%;
+    }
+    
+    .js{
+        margin-left: 12%;
+    }
+    
+    .htmlandcsslogos{
+        margin-left: 12%;
+    }
+    
+    /*
+    .p1{
+        width: 20%;
+        color: white;
+        text-align: center;
+        margin-left: 11%;
+        margin-top: 1%;
+        line-height: 1.3;
+        font-family: instrument sans;
+        
+    }
+    .p2{
+        width: 20%;
+        color: white;
+        text-align: center;
+        margin-left: 40%;
+        margin-top: -7%;
+        line-height: 1.4;
+        font-family: instrument sans;
+        
+    }
+    
+    .p3{
+        width: 20%;
+        color: white;
+        text-align: center;
+        margin-left: 69%;
+        margin-top: -8%;
+        line-height: 1.3;
+        font-family: instrument sans;
+        
+    
+    } */
+    #exheader{
+        padding-top: 14px;
+        padding-bottom: 14px;
+        padding-right: 3px;
+        padding-left: 3px;
+    
+        margin-top: 4%;
+        margin-left: 37%;
+        margin-bottom: 20px;
+        text-align: center;
+        font-size: 5px;
+        width: 25%;
+    }
+    
+    
+    .explain{
+        color: aliceblue;
+    }
+    
+    .explain p {
+        width: 80%;
+        text-align: center;
+        line-height: 1.6;
+        margin-left: 9%;
+        font-family: instrument sans;
+        font-size: 10px;
+    }
+    
+    #js-ex-header{
+        margin-top: 12px;
+        
+        font-size: 8px;
+        padding-left:9px;
+        padding-right: 10px;
+        color: aliceblue;
+    }
+    
+    #js-cert-lnk img{
+        margin-left: 17%;
+        width: 70%;
+        
+        
+        
+    }
+    
+    #jscert-img{
+        margin-left:310px;
+    
+    }
+    
+    #ex-header-btm{
+        text-decoration: none;
+        
+        padding-left: 5px;
+       
+        
+    }
+    
+    #ex-header-btm:hover{
+        text-decoration: underline;
+        color: rgb(255, 255, 255);
+    
+    }
+    
+    
+    .resources-section{
+        background-color: rgba(245, 222, 179, 0);
+        margin-top: 30px;
+    
+    }
+    
+     
+    
+    .resources-list ul{
+        
+        margin-top: 7%;
+        margin-left: 10%;
+        text-decoration: none;
+       
+        
+        
+    
+    }
+    
+    .resources-list ul li a{
+        color: aliceblue;
+        text-decoration: none;
+        padding-left: 1%;
+        padding-right: 1%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        border-radius: 15px;
+        font-size: 12px;
+    }
+    
+    .resources-list ul li {
+        background-color: rgba(0, 0, 0, 0);
+        
+        text-align: center;
+        margin-left: -25%;
+        list-style: none;
+        
+    }
+    
+    .resources-list ul li :hover{
+        padding-left: 110px;
+        padding-right: 110px;
+        background-color: rgba(73, 69, 69, 0.877);
+    }
+    #commiunity{
+        margin-left: -1%;
+    }
+
+    #com-head-h1{
+        color: aliceblue;
+        margin-left: 28%;
+        margin-top: 15%;
+        padding: 5px;
+        border: 1px solid white;
+        padding-top: 6px;
+        border-radius: 10px;
+        text-align: center;
+        width: 50%;
+        font-size: 20px;
+    }
+    
+    #com-head-h1:hover{
+        background-color: rgba(124, 124, 126, 0.904);
+        color: white;
+    }
+    
+    .com-mem{
+        margin-left: -6px;
+        margin-top: 10%;
+        margin-bottom: 1%;
+        
+    }
+    
+    .com-mem li {
+        display: inline;
+        filter: brightness(100%);
+        transition: ease-in-out .3s;
+        margin-left: 1px;
+        
+    }
+    
+    .com-mem li :hover{
+        filter: brightness(50%);
+        transition: ease-in-out .3s;
+        
+    }
+    
+    #com-p{
+        width: 80%;
+        text-align: center;
+        font-family: instrument sans;
+        font-size: 10px;
+        line-height: 1.7;
+        color: white;
+        margin-left: 47px;
+        margin-top: 40px;
+    }
+    
+    #com-h1-names1{
+        display: inline;
+        margin-left: 1.8%;
+        color: aliceblue;
+    }
+    
+    #com-h1-names2{
+        display: inline;
+        margin-left: 2.4%;
+        color: aliceblue;
+    }
+    #com-h1-names3{
+        display: inline;
+        color: aliceblue;
+        margin-left: 1%;
+    }
+    #com-h1-names4{
+        display: inline;
+        
+        font-family: instrument sans;
+        margin-left: 2.9%;
+        color: aliceblue;
+        
+    }
+    
+    .com-name-block {
+        margin-left:8%;
+        font-size: 4px;
+        
+    
+    }
+    
+    .footer-menu{
+        padding-top: 10px;
+        padding-bottom: 1%;
+        padding-right:22px;
+        padding-left: 10px;
+        background-color: rgba(17, 17, 17, 0.945);
+        margin-left: 28px;
+    
+    }
+    
+    
+    .footer-icons{
+        margin-left: -15px;
+        
+        
+    }
+    
+    .footer-icons li{
+        display: inline;
+        margin-left: 30px;
+    }
+
+    .footer-inside-lst ul li{
+        margin-left: -14px;
+    }
+    
+    .footer-inside-lst ul li {
+        color: aliceblue;
+        list-style: none;
+        text-decoration: none;
+    }
+   
+    #f-h2{
+        text-align: center;
+        margin-left: -8%;
+    }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media only screen and (max-width:575px) {
     body{
@@ -549,8 +939,8 @@
     .navbar{
         background-color: rgba(0, 0, 0, 0.712);
         padding: 5px;
-        width: 100%;
-        margin-top: -9px;
+        width:100%;
+        margin-top: -39px;
         margin-left: -8px;
         padding-right: 12px;
         position:fixed;
@@ -559,7 +949,7 @@
     }
     
     .navbar-ul{
-        margin-left: 26px;
+        margin-left: -17px;
         margin-top: -25px;
         justify-content: end;
         font-size: 19px;
@@ -574,7 +964,7 @@
     .navbrlist li{
         font-size: 9px;
         display: inline;
-        margin-left: 4px;
+        margin-left: 1px;
         margin-top: 10%;
         color: white;
         cursor: pointer;
@@ -582,20 +972,19 @@
         border-radius: 10px;
         text-decoration: none;
         transition: ease-in-out .6s;
-        background-color: rgba(35, 233, 141, 0.295);
-        border: 2px  rgba(0, 255, 170, 0.726) outset;
-        
+       
     }
     
     .navbrlist li:hover{
-        background-color: rgba(24, 209, 138, 0.712);
+        
         transition: ease-in-out .6s;
-        border: 2px  rgba(14, 223, 101, 0.842) inset;
+        
         
     }
     .navbrlist li a{
         text-decoration:none;
         color: white;
+        font-size: 8px;
     }
 
 
@@ -609,6 +998,8 @@
     #slider{
         width: 300px;
         height: 150px;
+        margin-left: -14%;
+        margin-top: 30%;
     }
     
     .introtop button{
@@ -617,10 +1008,14 @@
         text-align: center;
         color: aliceblue;
         border: none;
-        padding-left: 50px;
+        padding-left: 10px;
         transition: ease-in-out .5s;
         border-radius: 7px;
        
+    }
+    #prevbtn{
+        margin-left: -12%;
+        margin-top: 2px;
     }
     
     .introtop button:hover{
@@ -628,6 +1023,18 @@
         transition: ease-in-out .5s;
     }
 
+    #f-h2{
+        font-size: 18px;
+        margin-left: -1%;
+    }
 
-    
+    .footer-menu{
+        width: 96%;
+        margin-left: -1.7%;
+    }
+    #f-h2{
+        font-size: 18px;
+        margin-left: -1%;
+        text-align: center;
+    }
 } 
